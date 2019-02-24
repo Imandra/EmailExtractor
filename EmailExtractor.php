@@ -23,7 +23,7 @@ class EmailExtractor
     private function fileIntoString($filename)
     {
         if (file_exists($filename))
-            return file_get_contents($filename, true);
+            return file_get_contents($filename);
         else
             return false;
     }
