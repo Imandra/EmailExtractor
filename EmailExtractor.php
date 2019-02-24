@@ -67,6 +67,7 @@ class EmailExtractor
 
             echo "Найдено " . count($emails) . " адресов эл. почты.";
             //echo "<pre>"; print_r($emails); echo "</pre>";
-        }
+        } else
+            echo "Файл не найден.";
     }
 }
